@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: stg_payments
+    description: Staged payment data from our jaffle shop app.
+    columns: 
+      - name: status
+        description: "{{ doc('payment_status') }}"
